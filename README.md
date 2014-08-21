@@ -1,7 +1,7 @@
 # HtmlMinifier
 [![Build Status](https://secure.travis-ci.org/stereobooster/html_minifier.png?branch=master)](http://travis-ci.org/stereobooster/html_minifier)
 
-Ruby wrapper for js library [html-minifier](https://github.com/kangax/html-minifier/). If you want pure ruby use [html_press](https://github.com/stereobooster/html_press) 
+Ruby wrapper for js library [html-minifier](https://github.com/kangax/html-minifier/). If you want pure ruby use [html_press](https://github.com/stereobooster/html_press)
 
 ## Installation
 
@@ -22,7 +22,7 @@ HtmlMinifier.minify(File.read("source.html"))
 When initializing `HtmlMinifier`, you can pass options
 
 ```ruby
-HtmlMinifier::minifier.new( <options> ).minify(source)
+HtmlMinifier::Minifier.new( <options> ).minify(source)
 # Or
 HtmlMinifier.minify(source, <options>)
 ```

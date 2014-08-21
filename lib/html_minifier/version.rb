@@ -1,4 +1,4 @@
 module HtmlMinifier
-  VERSION = "0.0.4"
-  SUBMODULE = "7032d3d3d97aabf0a2c96c8155ed077b455aca31"
+  VERSION = "0.6.7"
+  SUBMODULE = "90e8714318ad85124ffa2e96618eb9e1ef67a91b"
 end
